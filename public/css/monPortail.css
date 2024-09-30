@@ -1,0 +1,108 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.container mt-4 {
+    background-color: #e7f2fd;
+
+}
+/* Navigation bar styles */
+.navbar {
+  background-color: #ffffff;
+  height: 12.5vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid #ddd;
+}
+
+/* Adjust logo size */
+.navbar img {
+  height: 12vh;
+  width: auto;
+  margin-left: 68%;
+}
+
+/* monPortail title*/
+.navbar h1 {
+  font-size: 2rem;
+  margin-left: 14% !important;
+}
+
+/* Main content styles */
+.container {
+  max-width: 1200px;
+  margin: 1rem auto;
+  text-align: left;
+}
+
+.container h2 {
+  margin-top: 3%;
+  margin-bottom: 2% !important;
+  font-size: 2rem;
+  font-weight: bold;
+  text-align: left;
+}
+
+.container p {
+  font-size: 1.3rem;
+  margin-top: -1%;
+  text-align: left;
+}
+
+.btn-outline-primary {
+  color: #007bff;
+  background-color: transparent;
+  background-image: none;
+  border-color: #007bff;
+}
+
+.btn-outline-primary:hover {
+  color: #fff;
+  background-color: #007bff;
+  border-color: #161719;
+}
+
+.btn-primary {
+  display: inline-block;
+  font-weight: 400;
+  color: #fff;
+  background-color: #007bff;
+  border-color: #007bff;
+  text-align: center;
+  vertical-align: middle;
+  border: 1px solid transparent;
+  padding: 0.75rem 1.5rem;
+  font-size: 1.3rem;
+  line-height: 1.5;
+  border-radius: 5px;
+}
+
+.btn-primary:hover {
+  color: #fff;
+  background-color: #0062cc;
+  border-color: #005cbf;
+}
+
+.link-hover:hover {
+  color: #0056b3;
+  text-decoration: none;
+  border-bottom: 1px solid #0056b3;
+}
+
+hr.my-4 {
+  border-top: 4px solid gray;
+  width: 9%;
+  margin-left: 0%;
+  margin-top: -2% !important;
+}
+
+.image-container img {
+  max-width: 55%;
+  height: auto;
+  margin-left: 50%;
+  margin-top: -56%;
+}

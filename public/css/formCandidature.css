@@ -1,0 +1,523 @@
+body{
+    font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    background-color: white;
+}
+.titre1-formation{
+    color: #0eacca;
+    font-weight: bold;
+    font-size: 2rem;
+    margin-bottom: 3rem;
+
+}
+.fond{
+    background-color:#F8F8F8 ;
+}
+.button-contenu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+  /* Style pour les boutons Suivant et Précédent */
+/* Style pour les boutons Suivant et Précédent */
+.sw-btn-prev,
+.sw-btn-next,
+.mon-portail-button,
+.btn-success
+ {
+  width: 50%; /* Modifier la largeur à 100% pour occuper toute la largeur disponible */
+  color: white;
+  background-color: #0eacca !important;
+  border: white;
+  border-radius: 20px !important;
+  font-size: 1.2rem !important;
+  font-weight: bold !important;
+  margin-top: 5%;
+  margin-right: 10px; /* Ajout d'une marge à droite pour espacer les boutons */
+  height: 7.5vh !important;
+  transition: all 0.2s ease-in-out;
+}
+
+/* Effet de survol pour les boutons Suivant et Précédent */
+.sw-btn-prev:hover,
+.sw-btn-next:hover,
+.mon-portail-button:hover
+{
+  background-color: #0079b9 !important;
+  transform: translateY(-2px);
+}
+.btn-success:hover
+{
+  background-color: #5cb85c !important;
+  transform: translateY(-2px);
+}
+/* Effet de clic pour les boutons Suivant et Précédent */
+.sw-btn-prev:active,
+.sw-btn-next:active,
+.mon-portail-button:active,
+.btn-success:active
+{
+  background-color: #0eacca;
+  border-color: #0eacca;
+  transform: translateY(2px);
+}
+
+
+
+.titre-formation{
+    margin-bottom: 2.5rem;
+    color: #0eacca;
+}
+
+.titre-etatcivil{
+    margin-bottom: 2.5rem;
+}
+.information-divers-titre1{
+    margin-bottom: 3rem;
+
+}
+h2{
+
+    color: #0079b9;
+    font-weight: bold;
+
+}
+
+.selects-group {
+    display: flex;
+    align-items: center;
+    margin-bottom: 2rem;
+    margin-right: 4rem;
+}
+
+.selects-group label {
+    flex-basis: 20%;
+
+
+}
+
+.selects-group select {
+    flex-basis: 40%;
+    margin-left: 0.5rem;
+    margin-top: -0.5rem;
+}
+
+
+.cadre{
+    border: 0.01rem solid black;
+  border-radius: 10px;
+
+}
+.container{
+    background-color: white;
+}
+
+/* Target the select element with class "form-control" */
+.formation-select{
+    /* Ajouter une bordure bleue */
+    width: 33.3333333%;
+    /* Rétablir l'apparence par défaut de l'élément select */
+
+    border: 1px solid #0eacca;
+
+
+}
+.form-control{
+    width: 29%;
+    /* Rétablir l'apparence par défaut de l'élément select */
+
+    border: 1px solid #0eacca;
+
+
+}
+
+.etat-civil-nom {
+    display: flex;
+
+    margin-top: 2rem;
+  }
+
+  .etat-civil-nom.move-right label.form-label[for="nom"] {
+    margin-left: 6.08rem; /* Ajustez la valeur selon vos besoins */
+    margin-top: 0.5rem;
+  }
+
+
+  .etat-civil-nom .form-label[for="nom"]  {
+    margin-right: 2rem;
+    margin-top: 1rem;
+  }
+
+  .etat-civil-prenom {
+    display: flex;
+    align-items: center;
+
+
+  }
+  .etat-civil-prenom.move-right label.form-label[for="prenom"] {
+    margin-left: 4.79rem; /* Ajustez la valeur selon vos besoins */
+    margin-top: 0.5rem;
+}
+
+
+  .etat-civil-prenom .form-label[for="prenom"] {
+    margin-right: 1.92rem;
+
+  }
+
+  .etat-civil-villenass {
+    display: flex;
+    align-items: center;
+}
+
+.etat-civil-villenass.move-right label.form-label[for="villenass"] {
+    margin-top: -1.5rem;
+}
+
+.etat-civil-villenass .form-label[for="villenass"] {
+    margin-left: 1.6rem;
+    margin-top: 2rem;
+}
+
+.etat-civil-villenass-champs {
+    margin-top: -1.5rem;
+    margin-left: 2.01rem;
+}
+
+/* Ajoutez le code CSS suivant pour afficher le label et l'entrée sur la même ligne */
+.etat-civil-villenass label.form-label,
+.etat-civil-villenass input.form-control {
+    display: inline-block;
+    white-space: nowrap; /* Empêche le retour à la ligne */
+}
+
+
+.formation-select{
+    width: 27.3%;
+    margin-bottom: 2rem;
+    border: 1px solid #0eacca;
+
+
+
+  }
+.naiss-espace-ligne{
+
+    margin-left: 1.99rem;
+    margin-top: 2rem;
+
+  }
+  .three-select .form-label[for="dateNaissance"] {
+
+    margin-top: 0.5rem;
+  }
+  .etat-civil-telephone {
+    display: flex;
+    align-items: center;
+    margin-top:1.3rem;
+  }
+
+  .etat-civil-telephone .form-label {
+    margin-left: 3.6rem;
+  }
+
+  .champs-tel {
+    width: 85%;
+    margin-left: 2rem;
+  }
+
+
+.etat-civil-rue {
+    display: flex;
+    align-items: center;
+    margin-top: 2rem;
+}
+
+.etat-civil-rue .form-label {
+    margin-left: 4.18rem;
+    display: inline-block;
+    white-space: nowrap; /* Empêche le retour à la ligne */
+  }
+
+  .champs-nrue {
+    width: 85%;
+    margin-left: 1.95rem;
+  }
+
+.etat-civil-pays{
+    display: flex;
+    align-items: center;
+    margin-top: 2rem;
+}
+
+.etat-civil-pays .form-label {
+    margin-left: 6.37rem;
+  }
+
+.select-pays{
+width: 85%;
+margin-left: 1.95rem;
+}
+
+.etat-civil-codep {
+    display: flex;
+    align-items: center;
+
+  }
+
+  .etat-civil-codep.move-right label.form-label[for="inputcodepostale"] {
+    margin-left: 2.98rem; /* Ajustez la valeur selon vos besoins */
+    margin-top: 0.5rem;
+  }
+
+
+  .etat-civil-codep .form-label[for="inputcodepostale"]  {
+
+    margin-top: 1rem;
+    display: inline-block;
+    white-space: nowrap; /* Empêche le retour à la ligne */
+
+  }
+  .champs-codep {
+    margin-left: 2rem;
+        width: 60%; /* Ajout de cette ligne */
+      }
+  .etat-civil-ville {
+    display: flex;
+    align-items: center;
+    width: 59%;
+  }
+
+.select-ville{
+
+    border: 1px solid #0eacca;
+
+  }
+  .etat-civil-ville.move-right label.form-label[for="inputville"] {
+    margin-left: 4.8rem; /* Ajustez la valeur selon vos besoins */
+  }
+
+
+  .etat-civil-ville .form-label[for="inputville"] {
+    margin-right: 2rem;
+    margin-top: 0.5rem;
+  }
+.codep-ville{
+    margin-top: 0.5rem;
+    margin-bottom: 0.2rem;
+
+}
+
+
+.etat-civil {
+
+    /* Ajouter une bordure bleue */
+    width: 20%;
+    /* Rétablir l'apparence par défaut de l'élément select */
+
+    border: 0.5px solid #0eacca;
+
+
+}
+
+
+label{
+    /* Styles personnalisés pour ce label spécifique */
+    font-weight: bold;
+
+  }
+.titre-etat-civil-adr{
+    font-size: 1.8rem;
+    font-weight: bold;
+    margin-top: 2rem;
+}
+
+/* ETAPE 03 PARCOURS ACDEMIQUE */
+
+
+
+.parcours-titre1{
+margin-bottom: 2rem;
+}
+.annee-serie {
+    margin-bottom: 1rem;
+  }
+
+ .parcours-form {
+    margin-top: 5rem;
+  }
+
+ .custom-label {
+    margin-bottom: 0.5rem;
+  }
+
+  .champs-annee{
+    width: 50%;
+    margin-left: 2rem;
+  }
+.label-annee{
+
+    margin-left: 3.77rem;
+
+  }
+ .parcours-serie .custom-label[for="inputserie"]  {
+    margin-left: 3.3rem;
+ }
+  .champs-serie{
+    width: 50%;
+    margin-left: 2rem;
+  }
+
+
+  .champs-mention{
+    width: 50%;
+    margin-left: 2rem;
+  }
+
+  .label-mention {
+
+    margin-left: 3rem;
+
+  }
+
+  .champs-lycee{
+    width: 50%;
+    margin-left: 2rem;
+  }
+
+  .label-lycee {
+
+    margin-left: 3rem;
+
+  }
+
+.parcours-titre2
+  {
+    margin-top: 4rem;
+    margin-bottom: 2rem;
+  }
+  .champs-saisie-container {
+    height: 50px; /* Vous pouvez ajuster la hauteur selon vos besoins */
+    overflow-y: auto;}
+
+  .radio-label {
+    display: flex;
+    align-items: center;
+  }
+
+  .radio-label p {
+    margin-right: 10px;
+  }
+
+  .radio-inline {
+    margin-right: 10px;
+  }
+
+  .label-niv-actuelle-parcours-academique,
+.select2-parcours-academique.form-select {
+    margin-top: 1.2rem;
+    display: inline-block;
+
+}
+
+.label-niv-actuelle-parcours-academique{
+    white-space: nowrap; /* Empêche le retour à la ligne */
+}
+
+.select2-parcours-academique.form-select {
+    width: 50%;
+    margin-left: 1rem;
+
+    /* Ajoutez ici d'autres styles personnalisés */
+}
+
+
+
+
+
+
+  /* ETAPE 4 INFORMATIONS DIVERS */
+
+  .infodivers-groupe{
+    display: flex;
+    align-items: center;
+
+  }
+
+
+  .infodivers-groupe .select1-infodivers[for="lang1"] {
+margin-left: 7.6rem;
+
+}
+.infodivers-groupe .select2-infodivers[for="lang2"] {
+    margin-left: 7.6rem;
+
+    }
+.infodivers-groupe .infodivers-select3{
+    margin-left: 10rem;
+}
+
+.infodivers-groupe .select3-infodivers[for="niveaufrancais"] {
+        margin-left: 4.38rem;
+
+}
+    .select3-infodivers {
+        margin-right: -6.25rem;
+    }
+.infodivers-groupe .select4-infodivers[for="niveauanglais"] {
+    margin-left: 4.79rem;
+
+    }
+
+    .select4-infodivers {
+        margin-right: 2.89rem;
+    }
+
+    .select5-infodivers {
+        white-space: nowrap;
+      }
+
+      .infodivers-groupe .infodivers-select5 {
+        margin-left: 2rem;
+        display: block;
+        margin-top: 0.5rem;
+      }
+
+
+
+.information-divers-titre2{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+.information-divers-titre3{
+    margin-top: 2rem;
+}
+.question1-information-divers{
+    font-weight: bold;
+}
+
+.question2-information-divers{
+    font-weight: bold;
+}
+.question2-information-divers{
+    margin-left: 0.4rem;
+}
+
+.question3-information-divers{
+    font-weight: bold;
+}
+
+.groupe-radio-info-fr{
+
+   margin-bottom: 1rem ;
+}
+
+.situation-act-check label{
+    font-weight: normal;
+}
+
+
+.justificatis-titre1{
+    margin-bottom: 3rem;
+}
+#form-3{
+    margin-bottom: 15rem;
+}

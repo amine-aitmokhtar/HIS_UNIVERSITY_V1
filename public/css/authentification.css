@@ -1,0 +1,213 @@
+/* Google Fonts - Poppins */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: 'Open Sans', sans-serif;
+}
+body {
+height: 100vh;
+margin: 0;
+display: flex;
+align-items: center;
+justify-content: center;
+background-image: url("../images/His-university-Reception-Hall.webp");
+background-size: cover;
+overflow: hidden;
+}
+
+.container {
+width: 100%;
+display: flex;
+align-items: center;
+justify-content: center;
+column-gap: 30px;
+}
+
+.form {
+position: absolute;
+max-width: 68vh;
+width: 100%;
+padding: 30px;
+border-radius: 6px;
+background: #FFF;
+}
+
+header {
+font-size: 35px;
+font-weight: 600;
+color: #0eacca;
+text-align: center;
+}
+
+form {
+margin-top: 30px;
+}
+
+.form .field {
+position: relative;
+height: 8vh;
+width: 100%;
+margin-top: 20px;
+border-radius: 6px;
+}
+
+.field input,
+.field button {
+height: 100%;
+width: 100%;
+border: none;
+font-size: 17px;
+font-weight: 400;
+border-radius: 6px;
+}
+
+.field input {
+outline: none;
+padding: 0 15px;
+border: 1px solid #CACACA;
+}
+
+.field input:focus {
+border-bottom-width: 2px;
+}
+
+.eye-icon {
+position: absolute;
+top: 50%;
+right: 10px;
+transform: translateY(-50%);
+font-size: 22px;
+color: #8b8b8b;
+cursor: pointer;
+padding: 5px;
+}
+
+.field button {
+color: #fff;
+background-color: #0eacca;
+transition: all 0.3s ease;
+cursor: pointer;
+font-size: 20px;
+}
+
+.field button:hover {
+background-color: #016dcb;
+}
+
+.form-link {
+text-align: center;
+margin-top: 10px;
+}
+
+.form-link span,
+.form-link a {
+font-size: 14px;
+font-weight: 400;
+color: #232836;
+font-size: 17px;
+}
+
+.form a {
+color: #0eacca;
+text-decoration: none;
+}
+
+.form-content a:hover {
+text-decoration: underline;
+}
+
+.line {
+position: relative;
+height: 1px;
+width: 100%;
+margin: 36px 0;
+background-color: #d4d4d4;
+}
+
+.line::before {
+content: 'Ou';
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+background-color: #FFF;
+color: #8b8b8b;
+padding: 0 15px;
+}
+
+.media-options a {
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+@media screen and (max-width: 400px) {
+.form {
+padding: 20px 10px;
+}
+}
+
+/* Validations */
+.error-message {
+position: relative;
+color: red;
+font-size: 14px;
+top: -2px;
+left: 6px;
+}
+
+/* Google */
+/* Style pour le bouton de connexion personnalisé */
+#google-signin-button-container {
+    display: flex;
+    justify-content: center; /* Centrer horizontalement */
+    margin-top: 10px; /* Marge supérieure pour l'espacement */
+  }
+
+  .google-signin-button {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+    color: rgba(0, 0, 0, 0.54);
+    border: 1px solid rgba(0, 0, 0, 0.12);
+    padding: 10px 20px;
+    font-size: 14px;
+    font-weight: 500;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 1px 5px 0 rgba(0, 0, 0, 0.12), 0 3px 1px -2px rgba(0, 0, 0, 0.2);
+}
+
+.google-signin-button:hover {
+    background-color: #f1f1f1;
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 1px 5px 0 rgba(0, 0, 0, 0.12), 0 3px 1px -2px rgba(0, 0, 0, 0.2);
+}
+
+.google-signin-button:active {
+    background-color: #e0e0e0;
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 1px 5px 0 rgba(0, 0, 0, 0.12), 0 3px 1px -2px rgba(0, 0, 0, 0.2);
+}
+
+.google-signin-button:focus {
+    outline: none;
+    box-shadow: 0 0 0 3px rgba(66, 133, 244, 0.3);
+}
+
+.google-signin-button::before {
+    content: "";
+    display: inline-block;
+    background-image: url("https://www.gstatic.com/firebasejs/ui/2.0.0/images/auth/google.svg");
+    background-repeat: no-repeat;
+    background-size: 18px 18px;
+    width: 18px;
+    height: 18px;
+    margin-right: 10px;
+}
+
