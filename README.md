@@ -2,82 +2,107 @@
 
 Voici les différentes captures d'écran de l'application :
 
-![Admin1](./imgREADME/Admin1.jpg)
+![HIS Accueil](./imgREADME/HISacceuil.png)
+![HIS Connexion](./imgREADME/HISconnexion.png)
+![Auth](./imgREADME/auth.jpg)
+![Stepbar](./imgREADME/stepbar.jpg)
 ![Etudiant](./imgREADME/Etudiant.jpg)
+![Admin1](./imgREADME/Admin1.jpg)
 ![Etudiant2](./imgREADME/Etudiant2.jpg)
 ![Etudiant3](./imgREADME/Etudiant3.jpg)
 ![Etudiant33](./imgREADME/Etudiant33.jpg)
 ![Etudiant4](./imgREADME/Etudiant4.jpeg)
 ![Etudiant5](./imgREADME/Etudiant5.jpg)
-![HIS Accueil](./imgREADME/HISacceuil.png)
-![HIS Connexion](./imgREADME/HISconnexion.png)
-![Auth](./imgREADME/auth.jpg)
-![Stepbar](./imgREADME/stepbar.jpg)
 
 
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
 
-<p align="center">
-<a href="https://github.com/laravel/framework/actions"><img src="https://github.com/laravel/framework/workflows/tests/badge.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
-</p>
+# Projet de Fin d'Études - Système de Gestion des Inscriptions de HIS UNIVERSITY
 
-## About Laravel
+## Introduction
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+Ce projet a été réalisé dans le cadre de mon projet de fin d'études de Licence. L'objectif principal est de développer un site web complet permettant de gérer les inscriptions des étudiants à HIS UNIVERSITY tout en offrant plusieurs portails personnalisés pour les **étudiants**, les **enseignants** et le **personnel administratif**.
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+L'application propose des fonctionnalités spécifiques pour chaque groupe d'utilisateur afin d'améliorer l'efficacité et la fluidité des processus administratifs et académiques au sein de l'université.
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+## Fonctionnalités Principales
 
-## Learning Laravel
+### 1. Portail Étudiant
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
+Le portail dédié aux étudiants leur permet d'accéder à un certain nombre de fonctionnalités pour faciliter leur gestion académique :
 
-You may also try the [Laravel Bootcamp](https://bootcamp.laravel.com), where you will be guided through building a modern Laravel application from scratch.
+- **Inscription en ligne** : Les étudiants peuvent s'inscrire ou se réinscrire en ligne, sélectionner leurs cours, et consulter leurs informations d'inscription.
+- **Consultation des résultats** : Accès direct aux relevés de notes et résultats d'examen.
+- **Demande de documents officiels** : Les étudiants peuvent demander des certificats de scolarité, des relevés de notes, et autres documents administratifs.
+- **Suivi de l'avancement académique** : Interface dédiée pour consulter leur progression dans les programmes académiques, y compris les crédits obtenus et les cours à valider.
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains over 2000 video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+### 2. Portail Enseignant
 
-## Laravel Sponsors
+Le portail pour les enseignants leur fournit des outils essentiels pour gérer leur activité pédagogique au sein de l'université :
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the Laravel [Patreon page](https://patreon.com/taylorotwell).
+- **Gestion des cours** : Création et gestion des cours et des supports pédagogiques (syllabus, documents, etc.).
+- **Saisie des notes** : Interface simple pour entrer les notes des étudiants par matière et par examen.
+- **Suivi des absences** : Système de suivi des présences et absences des étudiants dans leurs cours.
+- **Communications avec les étudiants** : Possibilité de communiquer directement avec les étudiants inscrits à leurs cours via des messages ou des notifications.
 
-### Premium Partners
+### 3. Portail Personnel Administratif
 
-- **[Vehikl](https://vehikl.com/)**
-- **[Tighten Co.](https://tighten.co)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Cubet Techno Labs](https://cubettech.com)**
-- **[Cyber-Duck](https://cyber-duck.co.uk)**
-- **[Many](https://www.many.co.uk)**
-- **[Webdock, Fast VPS Hosting](https://www.webdock.io/en)**
-- **[DevSquad](https://devsquad.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel/)**
-- **[OP.GG](https://op.gg)**
-- **[WebReinvent](https://webreinvent.com/?utm_source=laravel&utm_medium=github&utm_campaign=patreon-sponsors)**
-- **[Lendio](https://lendio.com)**
+Le personnel administratif bénéficie également d'un portail qui facilite la gestion de l'université :
 
-## Contributing
+- **Validation des inscriptions** : Processus de validation des inscriptions en ligne soumises par les étudiants.
+- **Gestion des données académiques** : Suivi des informations académiques, y compris l'édition et la modification des dossiers étudiants.
+- **Génération de rapports** : Outils de génération de rapports académiques et statistiques sur les inscriptions, les résultats et les effectifs.
+- **Support administratif** : Gestion des demandes administratives, y compris les demandes de documents officiels et de vérification de l’état des inscriptions.
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
+## Technologies Utilisées
 
-## Code of Conduct
+Le projet a été développé en utilisant les technologies suivantes :
 
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
+- **Frontend :** 
+  - **React** : Pour la création d'une interface utilisateur dynamique et réactive.
+  - **Bootstrap** : Pour la conception d'une interface utilisateur moderne et responsive.
+  - **jQuery** : Pour gérer des interactions utilisateur avancées et manipuler dynamiquement le DOM.
 
-## Security Vulnerabilities
+- **Backend :**
+  - **Laravel** : Framework PHP robuste utilisé pour créer l'API backend et gérer la logique métier.
+  - **SQL** : Pour le stockage et la gestion des données académiques et administratives dans une base de données relationnelle.
 
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
+## Organisation du Projet
 
-## License
+Le site est organisé en plusieurs modules pour assurer une gestion fluide des différents rôles et responsabilités au sein de l'université :
 
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+1. **Module d'inscription des étudiants** : Centralise toutes les informations relatives aux nouvelles inscriptions et réinscriptions.
+2. **Module de gestion académique** : Pour les enseignants, incluant la gestion des cours et des notes.
+3. **Module administratif** : Permet au personnel administratif de gérer les dossiers étudiants, valider les inscriptions, et générer des rapports.
+4. **Système de notifications et de communication** : Pour permettre une communication efficace entre les étudiants, enseignants, et administrateurs.
+
+## Déploiement et Installation
+
+### Prérequis
+
+- **Node.js** (version 14 ou supérieure)
+- **PHP** (version 7.4 ou supérieure)
+- **Composer** pour la gestion des dépendances PHP
+- **MySQL** ou tout autre SGBD relationnel pour la base de données
+
+### Étapes d'installation
+
+1. Clonez le dépôt sur votre machine locale :
+   ```bash
+   git clone https://github.com/votre-utilisateur/projet-inscription-his-university.git
+### Installez les dépendances PHP et JavaScript :
+
+2. Installez les dépendances PHP et JavaScript :
+   ```bash
+   composer install
+   npm install
+
+3. Configurez le fichier .env pour connecter l'application à la base de données.
+
+4.Exécutez les migrations de la base de données :
+
+php artisan migrate
+
+5.Démarrez le serveur de développement :
+php artisan serve
+npm run dev
+
