@@ -1,3 +1,20 @@
+# Aperçu du projet
+
+Voici les différentes captures d'écran de l'application :
+
+![Admin1](./imgREADME/Admin1.jpg)
+![Etudiant](./imgREADME/Etudiant.jpg)
+![Etudiant2](./imgREADME/Etudiant2.jpg)
+![Etudiant3](./imgREADME/Etudiant3.jpg)
+![Etudiant33](./imgREADME/Etudiant33.jpg)
+![Etudiant4](./imgREADME/Etudiant4.jpeg)
+![Etudiant5](./imgREADME/Etudiant5.jpg)
+![HIS Accueil](./imgREADME/HISacceuil.png)
+![HIS Connexion](./imgREADME/HISconnexion.png)
+![Auth](./imgREADME/auth.jpg)
+![Stepbar](./imgREADME/stepbar.jpg)
+
+
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
 
 <p align="center">
